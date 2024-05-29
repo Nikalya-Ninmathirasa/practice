@@ -8,16 +8,16 @@ class hello{
       Scanner input = new Scanner(System.in);
       
       String name = input.nextLine();
-      int score = input.nextInt();
+      double score = input.nextDouble();
       input.nextLine();
       String department = input.nextLine();
 
      
-      double marks = score/ 10.0 ;
+     // double marks = score/ 10.0 ;
         
 
         System.out.println("name is " + name);
-        System.out.println("Score is " + marks);
+        System.out.println("Score is " + score/10 + "/10");
         System.out.println("department is " + department);
     }
 }
